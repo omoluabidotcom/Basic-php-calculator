@@ -1,0 +1,20 @@
+* {
+    display: block;
+    justify-content: center;  
+}
+
+.numb {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.numberSpace {
+    border: 0px;
+}
+
+hr {
+    height: 0.1px;
+    width: 200px;
+    margin-left: 30px;
+}
