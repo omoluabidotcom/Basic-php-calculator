@@ -1,5 +1,6 @@
 <?php
 
+// Here the function that load all classes into the index.php file
 include 'inc/autoload.inc.php';
 
 ?>
@@ -32,12 +33,12 @@ include 'inc/autoload.inc.php';
        <form name="form" method="GET" action="index.php" >
         <?php
         
+        // Here the file that perform some part of calculation
         include 'Inc/calc.inc.php';
-
-        
 
         ?>
 
+        <!-- Below the button for the numbers and operators are added -->
         <input type="button" value="7" class="numb" id="numb" onclick="form.numberSpace.value+='7'" />
         <input type="button" value="8" class="numb" id="numb" onclick="form.numberSpace.value+='8'" />
         <input type="button" value="9" class="numb" id="numb" onclick="form.numberSpace.value+='9'" />
@@ -62,7 +63,10 @@ include 'inc/autoload.inc.php';
         <input type="button" value="+" class="numb" id="numb" onclick="form.numberSpace.value+='+'" /> 
         <br>
 
+        <!-- Below the submit button is added -->
         <input type="submit" name="submit" value="=" class="numb" id="numb" />
+
+        <p class="sub_header" > Simple 2-Display Calculator </p>
     </form>
   </fieldset>
 
