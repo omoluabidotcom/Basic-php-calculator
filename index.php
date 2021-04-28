@@ -18,7 +18,7 @@ include 'inc/autoload.inc.php';
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
    <title>
-     Two Display Calculator
+     
    </title>
 
    <link href="styles.css" type="text/css" rel="stylesheet" />
@@ -26,7 +26,9 @@ include 'inc/autoload.inc.php';
  </head>
 
  <body>
-   <fieldset class="container">
+
+  <div class="container" id="container" >
+   <fieldset class="field_container">
 
        <legend class="legend" id="legend"> Calculator </legend>
 
@@ -66,9 +68,10 @@ include 'inc/autoload.inc.php';
         <!-- Below the submit button is added -->
         <input type="submit" name="submit" value="=" class="submit" id="submit" />
 
-        <p class="sub_header" > Simple 2-Display Calculator </p>
     </form>
-  </fieldset>
 
+    <p class="sub_header" > Simple 2-Display Calculator </p>
+   </fieldset>
+  </div>
  </body>
 </html>
