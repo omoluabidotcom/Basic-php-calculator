@@ -1,11 +1,60 @@
 * {
     display: block;
-    justify-content: center;  
 }
 
- .container {
+body {
+    text-align: center;
+    height: 400px;
+    width: 250px;
+}
+
+.container {
     display: block;
-    width: 450px;
-    height: 350px
+    height: 350px;
+    width: 250px;
 }
 
+.numberSpace {
+    border: 0px;
+
+}
+
+title {
+    text-align: center;
+    width: 200px;
+    height: 25px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.numb {
+    display: inline;
+    float: left;
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+}
+
+.refresh {
+    display: inline;
+    float: left;
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+}
+
+.submit {
+    display: block;
+    float: left;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+}
+
+.sub_header {
+    display: block;
+}

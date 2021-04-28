@@ -64,7 +64,7 @@ include 'inc/autoload.inc.php';
         <br>
 
         <!-- Below the submit button is added -->
-        <input type="submit" name="submit" value="=" class="numb" id="numb" />
+        <input type="submit" name="submit" value="=" class="submit" id="submit" />
 
         <p class="sub_header" > Simple 2-Display Calculator </p>
     </form>
