@@ -26,7 +26,7 @@ include 'inc/autoload.inc.php';
  </head>
 
  <body>
-   <fieldset>
+   <fieldset class="container">
 
        <legend class="legend" id="legend"> Calculator </legend>
 
@@ -60,7 +60,7 @@ include 'inc/autoload.inc.php';
         <button href="index.php" class="refresh"> C </button>
         <input type="button" value="0" class="numb" id="numb" onclick="form.numberSpace.value+='0'" />
         <input type="button" value="." class="numb" id="numb" onclick="form.numberSpace.value+='.'" />
-        <input type="button" value="+" class="numb" id="numb" onclick="form.numberSpace.value+='+'" /> 
+        <input type="button" value="+" class="numb" id="numb" onclick="form.numberSpace.value='+'" /> 
         <br>
 
         <!-- Below the submit button is added -->
