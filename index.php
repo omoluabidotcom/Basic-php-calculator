@@ -39,7 +39,7 @@ include 'inc/autoload.inc.php';
         include 'Inc/calc.inc.php';
 
         ?>
-
+     </fieldset>
         <!-- Below the button for the numbers and operators are added -->
         <input type="button" value="7" class="numb" id="numb" onclick="form.numberSpace.value+='7'" />
         <input type="button" value="8" class="numb" id="numb" onclick="form.numberSpace.value+='8'" />
@@ -71,7 +71,6 @@ include 'inc/autoload.inc.php';
     </form>
 
     <p class="sub_header" > Simple 2-Display Calculator </p>
-   </fieldset>
   </div>
  </body>
 </html>
