@@ -1,7 +1,7 @@
 <?php
 
 // Here the function that load all classes into the index.php file
-include 'inc/autoload.inc.php';
+include 'Inc/autoload.inc.php';
 
 ?>
 
