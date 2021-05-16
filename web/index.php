@@ -21,7 +21,7 @@ include 'inc/autoload.inc.php';
      
    </title>
 
-   <link href="styles.css" type="text/css" rel="stylesheet" />
+   <link href="Stylesheets/styles.css" type="text/css" rel="stylesheet" />
 
  </head>
 
