@@ -32,7 +32,7 @@ include 'Inc/autoload.inc.php';
 
        <legend class="legend" id="legend"> Calculator </legend>
 
-       <form name="form" method="GET" action="index.php" >
+       <form name="form" method="POST" action="index.php" >
         <?php
         
         // Here the file that perform some part of calculation
