@@ -52,7 +52,7 @@ class Calculator extends Stringcheck{
                    echo "<hr>";
 
                  //Below reduce input to 13
-                 $ans = substr($ans,0,13);
+                 $ans = substr($ans, 0, 13);
                  echo ("<span class='answer'>$ans</span>");
         }
         

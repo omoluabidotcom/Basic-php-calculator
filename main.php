@@ -32,7 +32,7 @@ include 'Inc/autoload.inc.php';
 
        <legend class="legend" id="legend"> Calculator </legend>
 
-       <form name="form" method="POST" action="index.php" >
+       <form name="form" method="GET"  >
         <?php
         
         // Here the file that perform some part of calculation
@@ -59,10 +59,10 @@ include 'Inc/autoload.inc.php';
         <input type="button" value="-" class="numb" id="oper" onclick="form.numberSpace.value+='-'" /> 
         <br>
 
-        <button href="index.php" class="refresh" id="refresh" > C </button>
+        <button href="main.php" class="refresh" id="refresh" > C </button>
         <input type="button" value="0" class="numb" id="numb" onclick="form.numberSpace.value+='0'" />
         <input type="button" value="." class="numb" id="oper" onclick="form.numberSpace.value+='.'" />
-        <input type="button" value="+" class="numb" id="oper" onclick="form.numberSpace.value='+'" /> 
+        <input type="button" value="+" class="numb" id="oper" onclick="form.numberSpace.value+='+'" /> 
         <br>
 
         <!-- Below the submit button is added -->
